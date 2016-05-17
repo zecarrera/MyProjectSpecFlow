@@ -1,0 +1,12 @@
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\MyProjectSpecFlow.dll.config
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\MyProjectSpecFlow.dll
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\MyProjectSpecFlow.pdb
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\nunit.framework.dll
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\TechTalk.SpecFlow.dll
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\nunit.framework.xml
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\obj\Debug\MyProjectSpecFlow.csprojResolveAssemblyReference.cache
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\obj\Debug\MyProjectSpecFlow.dll
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\obj\Debug\MyProjectSpecFlow.pdb
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\CalculatorExample.dll
+c:\users\jose.carrera\documents\visual studio 2015\Projects\MyProjectSpecFlow\MyProjectSpecFlow\bin\Debug\CalculatorExample.pdb
