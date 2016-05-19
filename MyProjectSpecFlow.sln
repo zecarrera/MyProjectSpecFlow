@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProjectSpecFlow", "MyProjectSpecFlow\MyProjectSpecFlow.csproj", "{BDB9ADE8-8C73-4821-9EFA-D38B2F2D5BBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorAcceptanceTests", "MyProjectSpecFlow\CalculatorAcceptanceTests.csproj", "{BDB9ADE8-8C73-4821-9EFA-D38B2F2D5BBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorExample", "CalculatorExample\CalculatorExample.csproj", "{7E14783E-9111-42A6-BE99-3FE620445B60}"
 EndProject

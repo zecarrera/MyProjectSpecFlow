@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace MyProjectSpecFlow
+namespace MyProjectSpecFlow.Features
 {
     using TechTalk.SpecFlow;
     
@@ -24,7 +24,7 @@ namespace MyProjectSpecFlow
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "Answers.feature"
+#line 1 "BasicOperations.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]

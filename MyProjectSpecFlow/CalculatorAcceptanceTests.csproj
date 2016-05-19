@@ -58,18 +58,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Answers.feature.cs">
+    <Compile Include="Features\BasicOperations.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Answers.feature</DependentUpon>
+      <DependentUpon>BasicOperations.feature</DependentUpon>
     </Compile>
-    <Compile Include="CalculatorSteps.cs" />
+    <Compile Include="Steps\BasicOperationSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Answers.feature">
+    <None Include="Features\BasicOperations.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Answers.feature.cs</LastGenOutput>
+      <LastGenOutput>BasicOperations.feature.cs</LastGenOutput>
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
