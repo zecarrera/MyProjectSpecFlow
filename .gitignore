@@ -54,3 +54,5 @@ MyProjectSpecFlow/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5AD
 *.nupkg
 CalculatorExample/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
 CalculatorExample/obj/Debug/CalculatorExample.csproj.FileListAbsolute.txt
+CalculatorExample/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+MyProjectSpecFlow/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs

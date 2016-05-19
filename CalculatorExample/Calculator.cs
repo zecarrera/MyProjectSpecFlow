@@ -17,6 +17,10 @@ namespace CalculatorExample
             return FirstNumber + SecondNumber;
         }
 
-        
+        public double Multiply()
+        {
+            return FirstNumber * SecondNumber;
+        }
+
     }
 }

@@ -9,7 +9,7 @@ namespace MyProjectSpecFlow
     public class CalculatorSteps
     {
         private Calculator calculator = new Calculator();
-        private int Result { get; set; }
+        private double Result { get; set; }
 
         [Given(@"I have entered (.*) into the calculator")]
         public void GivenIHaveEnteredIntoTheCalculator(int number)
@@ -28,7 +28,13 @@ namespace MyProjectSpecFlow
         {
             Result = calculator.Add();
         }
-        
+
+        [When(@"I press multiply")]
+        public void WhenIPressMultiply()
+        {
+            Result = calculator.Multiply();
+        }
+
         [Then(@"the result should be (.*) on the screen")]
         public void ThenTheResultShouldBeOnTheScreen(int expected)
         {

@@ -66,11 +66,11 @@ namespace MyProjectSpecFlow
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Add two numbers")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
+        [NUnit.Framework.CategoryAttribute("add")]
         public virtual void AddTwoNumbers()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", new string[] {
-                        "mytag"});
+                        "add"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -87,11 +87,11 @@ this.ScenarioSetup(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Add two negative numbers")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
+        [NUnit.Framework.CategoryAttribute("add")]
         public virtual void AddTwoNegativeNumbers()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two negative numbers", new string[] {
-                        "mytag"});
+                        "add"});
 #line 15
 this.ScenarioSetup(scenarioInfo);
 #line 16
@@ -102,6 +102,27 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.When("I press add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 19
  testRunner.Then("the result should be -120 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Multiply two numbers")]
+        [NUnit.Framework.CategoryAttribute("multiply")]
+        public virtual void MultiplyTwoNumbers()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Multiply two numbers", new string[] {
+                        "multiply"});
+#line 22
+this.ScenarioSetup(scenarioInfo);
+#line 23
+ testRunner.Given("I have entered 5 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 24
+ testRunner.And("I have also entered 7 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 25
+ testRunner.When("I press multiply", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 26
+ testRunner.Then("the result should be 35 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
