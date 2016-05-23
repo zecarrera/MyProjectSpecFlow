@@ -1,4 +1,5 @@
-﻿using TechTalk.SpecFlow;
+﻿using System;
+using TechTalk.SpecFlow;
 using CalculatorExample;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -11,15 +12,15 @@ namespace MyProjectSpecFlow
         private double Result { get; set; }
 
         [Given(@"I have entered (.*) into the calculator")]
-        public void GivenIHaveEnteredIntoTheCalculator(int number)
+        public void GivenIHaveEnteredIntoTheCalculator(string number)
         {
-            calculator.FirstNumber = number;
+            calculator.FirstNumber = double.Parse(number);
         }
 
         [Given(@"I have also entered (.*) into the calculator")]
-        public void GivenIHaveAlsoEnteredIntoTheCalculator(int number)
+        public void GivenIHaveAlsoEnteredIntoTheCalculator(string number)
         {
-            calculator.SecondNumber = number;
+            calculator.SecondNumber = double.Parse(number);
         }
 
         [When(@"I press add")]
@@ -35,9 +36,9 @@ namespace MyProjectSpecFlow
         }
 
         [Then(@"the result should be (.*) on the screen")]
-        public void ThenTheResultShouldBeOnTheScreen(int expected)
+        public void ThenTheResultShouldBeOnTheScreen(string expected)
         {
-            Assert.AreEqual(expected, Result);
+            Assert.AreEqual(double.Parse(expected), Result);
         }
     }
 }
