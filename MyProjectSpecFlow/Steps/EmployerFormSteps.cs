@@ -28,5 +28,20 @@ namespace MyProjectSpecFlow
             }
         }
 
+        [When(@"I fill all the mandatory details in form using Dynamics")]
+        public void WhenIFillAllTheMandatoryDetailsInFormUsingDynamics(Table table)
+        {
+            var details = table.CreateDynamicSet();
+
+            foreach (var employee in details)
+            {
+                Console.WriteLine(employee.Name);
+                Console.WriteLine(employee.Age);
+                Console.WriteLine(employee.Email);
+                Console.WriteLine(employee.Phone);
+            }
+        }
+
+
     }
 }

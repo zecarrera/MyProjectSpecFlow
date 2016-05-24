@@ -27,6 +27,8 @@ namespace MyProjectSpecFlow
         public void WhenIPressAdd()
         {
             Result = calculator.Add();
+            ScenarioContext.Current["InfoForNextStep"] = "Step1 Passed";
+            Console.WriteLine(ScenarioContext.Current["InfoForNextStep"].ToString());
         }
 
         [When(@"I press multiply")]

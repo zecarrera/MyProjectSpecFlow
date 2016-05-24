@@ -96,6 +96,39 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Create a new employee with all mandatory fields with dynamics")]
+        [NUnit.Framework.CategoryAttribute("SmokeTest")]
+        public virtual void CreateANewEmployeeWithAllMandatoryFieldsWithDynamics()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a new employee with all mandatory fields with dynamics", new string[] {
+                        "SmokeTest"});
+#line 17
+this.ScenarioSetup(scenarioInfo);
+#line 18
+ testRunner.Given("I have loaded new employee page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Name",
+                        "Age",
+                        "Phone",
+                        "Email"});
+            table2.AddRow(new string[] {
+                        "john",
+                        "31",
+                        "0123456",
+                        "john@hogh.com"});
+            table2.AddRow(new string[] {
+                        "janet",
+                        "30",
+                        "0654132",
+                        "jante@hogh.com"});
+#line 19
+ testRunner.When("I fill all the mandatory details in form using Dynamics", ((string)(null)), table2, "When ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore
