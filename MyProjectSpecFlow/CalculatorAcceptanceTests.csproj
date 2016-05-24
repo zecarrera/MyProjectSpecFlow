@@ -63,6 +63,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BasicOperations.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\EmployerForm.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployerForm.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Steps\EmployerFormSteps.cs" />
     <Compile Include="Steps\BasicOperationSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -72,6 +78,10 @@
       <LastGenOutput>BasicOperations.feature.cs</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Features\EmployerForm.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>EmployerForm.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
